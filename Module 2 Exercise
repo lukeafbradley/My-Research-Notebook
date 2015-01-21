@@ -1,0 +1,30 @@
+# Module 2 Exercise
+
+#### Creating an interactive map from CWGC data
+
+_____
+
+Using the CWGC database, I was able to find 79 men with my surname who had died whilst serving in the Canadian Forces. After 
+visiting the CWGC database and searching my surname, I decided to try to do something a little extra by visualizing the names 
+that came up by inputting their cemetary locations into an interactive map.
+
+I first thought the process would be remarkably simple, especially considering the brunt of the work in compiling the data was 
+so easily accessed in the exact format I needed. After that I simply downloaded, edited, then copy-pasted my results into 
+[BatchGeo](http://batchgeo.com), set some basic parameters as to which column represented the location (in this case "Cemetary 
+or Memorial Location"), and created the map!
+
+However, I quickly ran into issues, as 30 of the 79 names which came up in my search had locations which BatchGeo could not 
+recognize or find. BatchGeo works best with specifics such as addresses, cities, or coordinates. Cemetaries and war memorials, 
+apparently, often lack the specificity required. There were also issues in exporting the files, meaning that the words in certain 
+rows would often repeat themselves, as is evident in the "Country" row, which repeats "United States of America" twice. With 79 
+(or, 49 now) people, this is a relatively easy thing to remedy, but if I were dealing with thousands and thousands of names it 
+might get more difficult.
+
+This was just something I decided to do rather quickly, without getting too much into aesthetics or organizational problems. All 
+this said, I still think BatchGeo can be a really helpful, simple tool for anyone looking to visualize location data on a map. I 
+was first introduced to it in a journalism class as a really useful tool in online data journalism. That said, I'm not nearly 
+familiar enough with the privacy settings of BatchGeo's free service to put any remotely sensitive data onto it. That seems like 
+a recipe for disaster. 
+
+You can find the map I've created [here](https://batchgeo.com/map/089466d575a80278b2cde59580ae8a68), and an introductory video 
+into how BatchGeo works [here](https://www.youtube.com/watch?v=nQCfoz69Bq4).
